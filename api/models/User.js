@@ -13,8 +13,14 @@ const UserSchema = mongoose.model('User', new Schema({
     required: true,
     unique: true
   },
+  phonenumber: {
+    type: String,
+    required: false,
+    unique: true
+  },
   password: {
     type: String,
+    required: true,
     unique: true
   },
   isAdmin: {

@@ -19,7 +19,7 @@ const HotelSchema = mongoose.model('Hotel', new Schema({
     type: String,
     required: true
   },
-  adress: {
+  address: {
     type: String,
     required: true
   },
@@ -39,7 +39,7 @@ const HotelSchema = mongoose.model('Hotel', new Schema({
     type: [String],
     required: true
   },
-  heapestPrice: {
+  cheapestPrice: {
     type: Number,
     required: true
   },
